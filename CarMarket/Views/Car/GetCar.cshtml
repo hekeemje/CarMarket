@@ -1,0 +1,31 @@
+﻿@model CarMarket.Domain.ViewModels.CarViewModel
+
+    @{
+        ViewBag.Title = "title";
+        Layout = "_Layout";
+    }
+
+    <div style="padding: 10px;"></div>
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="@Model?.CarImage"
+                     class="img-fluid rounded-start rounded" alt="@Model?.CarName">
+            </div>
+            <div class="col-md-4">
+                <div class="card-body">
+                    <h5 class="card-title text-center">@Model?.CarName</h5>
+                    <p class="card-text"><b>Description : </b>@Model?.Description</p>
+                    <p class="card-text"><b>Price : </b>@Model?.Price $</p>
+                    <p class="card-text"><b>Type : </b>@Model?.Type</p>
+                    <p class="card-text"><b>Model : </b>@Model.Model</p>
+                    <p class="card-text"><small class="text-muted">Release date - @Model?.DateCreate</small></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-body">
+                    <p class="card-text"><b>Описание: </b>@Model?.Description</p>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6D4E5C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C34584F4-09BE-40DB-A00A-F3AC4AD4D8CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarMarket.DAL", "DAL\CarMarket.DAL.csproj", "{D11CA6AC-1D8F-465C-8CBD-4B517D176116}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarMarket.DAL", "CarMarket.DAL\CarMarket.DAL.csproj", "{D11CA6AC-1D8F-465C-8CBD-4B517D176116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarMarket.Domain", "CarMarket.Domain\CarMarket.Domain.csproj", "{B332F73F-D938-4D29-BCA0-7F0047516F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarMarket.Domain", "CarMarket.Domain\CarMarket.Domain.csproj", "{B332F73F-D938-4D29-BCA0-7F0047516F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarMarket.Services", "CarMarket.Services\CarMarket.Services.csproj", "{B59F0393-0AB0-4B72-B891-95FD1CD4B4FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarMarket.Services", "CarMarket.Services\CarMarket.Services.csproj", "{B59F0393-0AB0-4B72-B891-95FD1CD4B4FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

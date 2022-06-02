@@ -39,6 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CarMarket.DAL\CarMarket.DAL.csproj" />
     <ProjectReference Include="..\CarMarket.Domain\CarMarket.Domain.csproj" />
     <ProjectReference Include="..\CarMarket.Services\CarMarket.Services.csproj" />
     <ProjectReference Include="..\DAL\CarMarket.DAL.csproj" />

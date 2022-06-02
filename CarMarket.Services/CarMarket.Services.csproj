@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CarMarket.DAL\CarMarket.DAL.csproj" />
     <ProjectReference Include="..\CarMarket.Domain\CarMarket.Domain.csproj" />
-    <ProjectReference Include="..\DAL\CarMarket.DAL.csproj" />
+    <ProjectReference Include="..\CarMarket.DAL\CarMarket.DAL.csproj" />
   </ItemGroup>
 
 </Project>
